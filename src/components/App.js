@@ -20,6 +20,7 @@ const App = () => {
         <form onSubmit={handleFormSubmit}>
         <label>
           Enter your name:
+          
           <br/>
           <input
             type="text"
@@ -28,7 +29,7 @@ const App = () => {
           />
         </label>
       </form>
-      <p>{name && `Hello, ${name}!`}</p>
+      <p>{name && `Hello ${name}!`}</p>
     </div>
   )
 }
